@@ -32,6 +32,6 @@ function ageFilterLite(){
     var lastname = document.getElementById("getLastName").value
     var age = document.getElementById("getAge").value
 
-    alert(`${name} ${lastname} ${age < 18? "Ruede durisimo, no votas!": "Puedes beber romo y votar"}`)
-    
+    alert(`${name} ${lastname} ${age < 18? "Not old enough, no votas!": "Puedes beber romo y votar"}`)
+
 }
